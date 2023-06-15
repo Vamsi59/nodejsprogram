@@ -12,7 +12,7 @@ const express = require('express');
 
 // Create an instance of the Express application
 const app = express();
-const port = 3000;
+const port = 9880;
 
 // Define a route for the root URL
 app.get('/', (req, res) => {
@@ -26,4 +26,7 @@ app.listen(port, () => {
 5)Save the file, and you're ready to run the server.
 
 6)Start the server by running the following command in your project directory:
-Open your web browser and visit http://localhost:3000. You should see the message "Hello, World!" displayed.
+Open your web browser and visit http://localhost:9880. You should see the message "Hello, World!" displayed.
+output
+![image](https://github.com/Vamsi59/pr.js/assets/94848154/79869f5c-1b66-494c-9d5c-7922a5015c5f)
+
